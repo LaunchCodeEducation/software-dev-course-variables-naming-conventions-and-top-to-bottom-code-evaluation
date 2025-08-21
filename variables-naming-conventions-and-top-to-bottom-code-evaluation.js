@@ -23,10 +23,17 @@ Things to reflect on:
   - How do clear variable names benefit team collaboration?
   
 */
+let firstName = "Alice";
+let items = 5;
+let price = 20;
+ 
+let shoppingList = firstName + " bought " + items + " items for $" + price + ".";
+let totalCost = items*price;
+let companyName = "Launch Code"
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
+console.log(shoppingList);
 
-console.log(d);
+console.log(firstName + " bought " + items + " items at a rate of $" + price + " each for a total cost of " +totalCost + " for " + companyName + " employees.")
+
+
+
