@@ -24,9 +24,14 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
+let a = "Alice"; // The variable are vauge and not well defined
+let b = 5; // This could use better naming all together
+let c = 20; // This one could have started with $ to give context
 let d = a + " bought " + b + " items for $" + c + ".";
 
 console.log(d);
+
+let name = "Alice";
+let _numberofItems = 5;
+let $amount = 20;
+let purchase = name + "bought" + 'items for $' + $amount + '.';
