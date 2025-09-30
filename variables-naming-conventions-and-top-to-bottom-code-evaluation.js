@@ -24,9 +24,13 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
+const customerName = "Alice";
+const itemCount = 5;
+const totalPrice = 20;
+const currency = "$";
+const pricePerItem = totalPrice / itemCount;
+const purchaseMessage = `${customerName} bought ${itemCount} items for ${currency}${totalPrice}`
 
-console.log(d);
+console.log(purchaseMessage);
+
+//meaningful names make code easier to read and change, pitfalls include single letters, unclear abbreviations, and inconsistent casing, and clear names help teams review, search, and onboard without guessing what values represent
