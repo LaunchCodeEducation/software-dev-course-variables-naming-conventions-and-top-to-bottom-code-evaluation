@@ -24,9 +24,11 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
+const name = "Alice";
+let quantity = 5;
+let price = 20;
+let totalQuantity = 10;
+let totalPrice = 40;
 
-console.log(d);
+console.log(name + " bought " + quantity + " items for $" + price + ".");
+console.log(name + " bought " + quantity + " more with a total of " + totalQuantity + " adding up to " + totalPrice + " .");
