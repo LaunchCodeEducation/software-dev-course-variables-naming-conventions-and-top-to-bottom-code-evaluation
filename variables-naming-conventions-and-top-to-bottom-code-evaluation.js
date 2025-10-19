@@ -1,5 +1,4 @@
 /*
-
 Objective:
 In this activity, you will reinforce the skill of creating and using variables
 while practicing best practices in variable naming conventions through a hands-on,
@@ -22,11 +21,16 @@ Things to reflect on:
   - What are the common pitfalls to avoid when naming variables?
   - How do clear variable names benefit team collaboration?
   
-*/
-
 let a = "Alice";
 let b = 5;
 let c = 20;
 let d = a + " bought " + b + " items for $" + c + ".";
 
-console.log(d);
+console.log(d); */
+
+let Name = "Alice";
+let number = 5;
+let items = "items for $";
+let total = 20;
+let result = Name + " bought " + number + items + total + ".";
+console.log(result);
