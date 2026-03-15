@@ -24,9 +24,10 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
+let name = "Alice";
+let itemsBought = 5;
+let totalCost = 20;
+let pricePerItem = totalCost / itemsBought;
+let message = name + " bought " + itemsBought + " items for $" + totalCost + ".";
+console.log(message);
 
-console.log(d);
