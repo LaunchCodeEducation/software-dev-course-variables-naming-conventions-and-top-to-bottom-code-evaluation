@@ -24,9 +24,13 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
+let customerName = "Alice";
+let itemCount = 5;
+let totalCost = 20;
 
-console.log(d);
+let storeName = "Corner Market";
+let currencySymbol = "$";
+
+let purchaseSummary = `${customerName} bought ${itemCount} items from ${storeName} for ${currencySymbol}${totalCost}.`;
+
+console.log(purchaseSummary);
